@@ -2,6 +2,17 @@ my_dict = {}
 my_dict['k2'] = 1
 my_dict['k1'] = 2
 
+xyz = {}
+xyz['a'] = 11
+xyz['b'] = 22
+
+print("-------------")
+k = xyz.keys()
+print(k)
+v = xyz.values()
+print(v)
+print("-------------\n")
+
 print(my_dict)
 for x in my_dict.values():
     print(x)
